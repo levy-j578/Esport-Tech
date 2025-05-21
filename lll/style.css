@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: #DDFFBC;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+
+div h1{
+    color: rgb(255, 255, 255);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #52734D;
+    align-items: center;
+    position: relative;
+    height: 20vh;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 20vw;
+}
+
+li:hover{
+    border-bottom: 1px solid white;
+}
+
+li{
+    list-style-type: none;
+    font-size: 140%;
+    transition: 1s;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.sobre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10%;
+    padding: 15px;
+    width: 80vw;
+    height: 15vh;
+    border-radius: 30px;
+    flex-direction: column;
+}
+
+.div-sec{
+    display: flex;
+    align-items: center;
+
+}
+
+.div-links{
+    box-shadow: 10px 10px 10px black;
+    display: flex;
+    width: 30vw;
+    height: 20vh;
+}
+
+.div-mae{
+    display: flex;
+    justify-content: space-around;
+    width: 98vw;
+}
+
+.div-link{
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 10px 10px black;
+    height: 20vh;
+    width: 28vw;
+    border-radius: 20px;
+    background-color: #91C788;
+    align-items: center;
+    font-size: 130%;
+    transition: 1s;
+}
+
+.div-link:hover{
+    width: 30vw;
+    height: 22vh;
+}
+
+
+
+#main2{
+    display: flex;
+}
+
+.div-f1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 10vh;
+}
+
+.div-camp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 16vw;
+    height: 32vh;
+    margin-left: 10%;
+   
+}
+
+.camp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.1;
+    transition: 0.7s;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10%;
+}
+
+.camp:hover{
+    opacity: 1;
+
+}
+
