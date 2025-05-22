@@ -31,6 +31,11 @@ nav{
 
 #div-da-logo{
     display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+    width: 61px;
+    height: 61px;
     justify-content: center;
 }
 
@@ -71,6 +76,12 @@ a{
     display: flex;
     align-items: center;
 
+}
+
+.img-logo{
+    width: 10vw;
+    margin-left: 30%;
+    margin-top: 50%;
 }
 
 .div-links{
