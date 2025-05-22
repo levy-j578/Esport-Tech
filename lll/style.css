@@ -130,6 +130,23 @@ a{
     margin: 10%;
 }
 
+.camp-baixo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.1;
+    transition: 0.7s;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 200% 10% 0 10%;
+}
+
+.camp-baixo:hover{
+    opacity: 1;
+}
+
 .camp:hover{
     opacity: 1;
 
