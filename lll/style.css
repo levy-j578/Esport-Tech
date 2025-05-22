@@ -23,6 +23,17 @@ nav{
     height: 20vh;
 }
 
+#logo{
+    width: 10vw;
+    height: 20vh;
+    border-radius: 20%;    
+}
+
+#div-da-logo{
+    display: flex;
+    justify-content: center;
+}
+
 ul{
     display: flex;
     justify-content: space-between;
@@ -72,7 +83,7 @@ a{
 .div-mae{
     display: flex;
     justify-content: space-around;
-    width: 98vw;
+    width: 100vw;
 }
 
 .div-link{
@@ -103,8 +114,8 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60vw;
-    height: 10vh;
+    width: 100vw;
+    height: 30vh;
 }
 
 .div-camp{
@@ -114,7 +125,7 @@ a{
     width: 16vw;
     height: 32vh;
     margin-left: 10%;
-   
+    background-color: green;
 }
 
 .camp{
@@ -123,6 +134,7 @@ a{
     justify-content: center;
     align-items: center;
     opacity: 0.3;
+    opacity: 0.5;
     transition: 0.7s;
     box-shadow: 5px 5px 10px black;
     border-radius: 20px;
@@ -135,7 +147,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    opacity: 0.3;
+    opacity: 0.5;
     transition: 0.7s;
     box-shadow: 5px 5px 10px black;
     border-radius: 20px;
@@ -153,8 +165,12 @@ a{
 }
 
 footer {
-  text-align: center;
-  padding: 20px;
-  background-color: var(--verde-escuro);
-  color: white;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 20px;
+    background-color: var(--verde-escuro);
+    color: white;
+    height: 40vh;
+    color: black;
 }
